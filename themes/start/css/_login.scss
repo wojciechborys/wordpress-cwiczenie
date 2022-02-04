@@ -1,0 +1,116 @@
+.register {
+    display: none;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.login-swipe {
+    margin-bottom: 1em;
+}
+
+.log-button {
+    opacity: .4;
+    font-weight: $bold;
+    font-size: 24px;
+    width: 35%;
+    color: gray;
+    text-align: left;
+    display: inline-block;
+    transition-duration: .4s;
+
+    @media (max-width: 1200px) {
+        width: 40%;
+    }
+
+    &:after {
+        content: '';
+        display: block;
+        height: 2px;
+        width: 0;
+        transition-duration: .4s;
+        background-color: $main;
+        display: block;
+        position: relative;
+        margin-top: .5em;
+    }
+
+    &:hover {
+        opacity: 1;
+
+        &:after {
+            width: 100%
+        }
+    }
+
+    @media(max-width: 1300px) {
+        font-size: 20px
+    }
+
+    @media(max-width: 576px) {
+        font-size: 16px;
+    }
+}
+
+#register {
+    float: right;
+
+}
+
+#login {
+    float: left;
+}
+
+#customer_login {
+    background-color: white;
+    padding: 1em 3em;
+    border-radius: $border-radius;
+    border: 1px solid #D0D0D0;
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    @media (min-width: 992px) {
+        width: 55%;
+    }
+
+    @media (max-width: 1200px) {
+        padding: 1em 2em;
+    }
+}
+
+.active-button {
+    display: inline-block;
+    opacity: 1;
+    color: $main;
+
+    &:after {
+        content: '';
+        display: block;
+        height: 2px;
+        width: 100%;
+        background-color: $main;
+        display: block;
+        position: relative;
+        margin-top: .5em;
+    }
+}
+
+.input-text {
+    border: none !important;
+    border: 1px solid $black !important;
+    padding: 15px;
+
+    &:focus {
+        border: 1px solid $second !important;
+    }
+}
+
+.form-row {
+    display: block;
+}
+
+.woocommerce-LostPassword {
+    margin-top: 8px;
+}

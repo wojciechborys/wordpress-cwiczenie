@@ -1,0 +1,234 @@
+0000.001 (0) Opened log file at time: Mon, 20 Dec 2021 12:39:31 +0000 on https://jrpzaune.de
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.66 WP: 5.8.2 PHP: 7.2.34 (fpm-fcgi, Linux webd223.cluster027.gra.hosting.ovh.net 4.14.232-ovh-vps-grsec-zfs-classid #1 SMP Mon May 10 09:26:52 CEST 2021 x86_64) MySQL: 5.6.51-log (max packet size=4194304) WPLANG: de_DE Server: Apache safe_mode: 0 max_execution_time: 165 memory_limit: 512M (used: 19.1M | 2M) multisite: N openssl: OpenSSL 1.0.1t  3 May 2016 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: Unknown
+0000.010 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.013 (0) Semaphore (fd, wp_options) being initialised
+0000.016 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.020 (0) Set semaphore last lock (fd) time to 2021-12-20 12:39:31
+0000.021 (0) Semaphore lock (fd) complete
+0000.027 (0) Backup run: resumption=0, nonce=2d9229d11d3f, file_nonce=2d9229d11d3f begun at=1640003971 (0s ago), job type=backup
+0000.029 (0) Scheduling a resumption (1) after 300 seconds (1640004271) in case this run gets aborted
+0000.040 (0) Checking if we have a zip executable available
+0000.041 (0) Testing: /usr/bin/zip
+0000.050 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.062 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.063 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.065 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.066 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.068 (0) Binary zip: error (code: -1)
+0000.113 (0) Creation of backups of directories: beginning
+0000.121 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0006.748 (0) Total entities for the zip file: 523 directories, 3360 files (0 skipped as non-modified), 48.5 MB
+0006.754 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0006.828 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 100 files added (on-disk size: 110.2 KB)
+0006.850 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 200 files added (on-disk size: 110.2 KB)
+0006.871 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 300 files added (on-disk size: 110.2 KB)
+0006.892 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 400 files added (on-disk size: 110.2 KB)
+0006.913 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 500 files added (on-disk size: 110.2 KB)
+0006.935 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 600 files added (on-disk size: 110.2 KB)
+0006.958 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 700 files added (on-disk size: 110.2 KB)
+0006.980 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 800 files added (on-disk size: 110.2 KB)
+0007.003 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 900 files added (on-disk size: 110.2 KB)
+0007.025 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 1000 files added (on-disk size: 110.2 KB)
+0007.027 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (19.6 MB, 3360 files batched, 1001 (1002) added so far); re-opening (prior size: 110.2 KB)
+0008.597 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 1100 files added (on-disk size: 5854.4 KB)
+0008.621 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 1200 files added (on-disk size: 5854.4 KB)
+0008.646 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 1300 files added (on-disk size: 5854.4 KB)
+0008.671 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 1400 files added (on-disk size: 5854.4 KB)
+0008.697 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 1500 files added (on-disk size: 5854.4 KB)
+0008.720 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 1600 files added (on-disk size: 5854.4 KB)
+0008.742 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 1700 files added (on-disk size: 5854.4 KB)
+0008.763 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 1800 files added (on-disk size: 5854.4 KB)
+0008.787 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 1900 files added (on-disk size: 5854.4 KB)
+0008.813 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 2000 files added (on-disk size: 5854.4 KB)
+0008.815 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.7 MB, 3360 files batched, 1001 (2003) added so far); re-opening (prior size: 5854.4 KB)
+0012.236 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 2100 files added (on-disk size: 8744.4 KB)
+0012.259 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 2200 files added (on-disk size: 8744.4 KB)
+0012.282 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 2300 files added (on-disk size: 8744.4 KB)
+0012.304 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 2400 files added (on-disk size: 8744.4 KB)
+0012.326 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 2500 files added (on-disk size: 8744.4 KB)
+0012.347 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 2600 files added (on-disk size: 8744.4 KB)
+0012.372 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 2700 files added (on-disk size: 8744.4 KB)
+0012.395 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 2800 files added (on-disk size: 8744.4 KB)
+0012.418 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 2900 files added (on-disk size: 8744.4 KB)
+0012.439 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 3000 files added (on-disk size: 8744.4 KB)
+0012.441 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.7 MB, 3360 files batched, 1001 (3004) added so far); re-opening (prior size: 8744.4 KB)
+0018.198 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 3100 files added (on-disk size: 12830.6 KB)
+0018.219 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 3200 files added (on-disk size: 12830.6 KB)
+0018.240 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.tmp: 3300 files added (on-disk size: 12830.6 KB)
+0019.826 (0) Creating zip file manifest (/home/matlogisre/jrpzaune/wp-content/updraft/backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.list-temp.tmp)
+0019.841 (0) Successfully created zip file manifest (size: 289990)
+0020.095 (0) Created plugins zip (0) - 13883.9 KB in 20 s (695.6 KB/s) (sha1: 545f37bf9318a1c2ed481d3eae17a7f932a516be, sha256: 1ec192e0b77c2f00516dfab04249712541bac8a89086ea2b09b330a2ae667d5a)
+0020.100 (0) Beginning creation of dump of themes (split every: 400 MB)
+0020.733 (0) Total entities for the zip file: 106 directories, 194 files (0 skipped as non-modified), 7.1 MB
+0020.756 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0021.470 (0) Creating zip file manifest (/home/matlogisre/jrpzaune/wp-content/updraft/backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-themes.zip.list-temp.tmp)
+0021.473 (0) Successfully created zip file manifest (size: 12126)
+0021.592 (0) Created themes zip (0) - 6677.3 KB in 1.5 s (4482.2 KB/s) (sha1: 5e2e6484a9ee906bb17f6931f87976ae2ffa857d, sha256: f1dec38acc8236e5da4f9098559551026148b562ebbe8f1dd6190263b51ca699)
+0021.599 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0021.601 (0) Looking for candidates to backup in: /home/matlogisre/jrpzaune/wp-content/uploads
+0021.602 (0) finding files: wpcf7_uploads: adding to list (1)
+0021.604 (0) finding files: 2021: adding to list (2)
+0021.605 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0021.892 (0) Total entities for the zip file: 9 directories, 175 files (0 skipped as non-modified), 67 MB
+0021.900 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.4 MB, 175 files batched, 27 (27) added so far); re-opening (prior size: 0 KB)
+0023.387 (0) A useful amount of data was added after this amount of zip processing: 2.2 s (normalised: 2.2 s, rate: 11815.3 KB/s)
+0023.391 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.2038938999176, normalised_time=2.166682233487, max_time=23.388464927673, data points known=1, old_max_bytes=26214400, new_max_bytes=169784354)
+0023.412 (0) Zip: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-uploads.zip.tmp: 100 files added (on-disk size: 26045.2 KB)
+0027.026 (0) Creating zip file manifest (/home/matlogisre/jrpzaune/wp-content/updraft/backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-uploads.zip.list-temp.tmp)
+0027.029 (0) Successfully created zip file manifest (size: 10526)
+0028.182 (0) Created uploads zip (0) - 68570.5 KB in 6.6 s (10430.4 KB/s) (sha1: b3a9f2dfcdcbf5393368c3348e03de62c3eddd74, sha256: 08df99c8979d48f1ce1449dbb0d647c4fa84924151edbeb8edffea8c18b4b1e7)
+0028.208 (0) Beginning backup of other directories found in the content directory (index: 0)
+0028.210 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0028.210 (0) Looking for candidates to backup in: /home/matlogisre/jrpzaune/wp-content
+0028.212 (0) finding files: plugins: skipping: this is the plugins directory
+0028.219 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0028.220 (0) finding files: themes: skipping: this is the themes directory
+0028.221 (0) finding files: updraft: skipping: this is the updraft directory
+0028.227 (0) finding files: uploads: skipping: this is the uploads directory
+0028.228 (0) finding files: index.php: adding to list (1)
+0028.230 (0) finding files: languages: adding to list (2)
+0028.232 (0) finding files: upgrade: skipping: excluded by options
+0028.327 (0) Total entities for the zip file: 3 directories, 98 files (0 skipped as non-modified), 3.7 MB
+0029.113 (0) Creating zip file manifest (/home/matlogisre/jrpzaune/wp-content/updraft/backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-others.zip.list-temp.tmp)
+0029.116 (0) Successfully created zip file manifest (size: 6416)
+0029.141 (0) Created others zip (0) - 1098.3 KB in 0.9 s (1212.7 KB/s) (sha1: 69ad486e3c4590e28ecd73ddfddc3e6d63e2669f, sha256: b1315072887f1bc0392e0f33179c03c03f1177f0bc5f91c15cfd20fdf5b4138e)
+0029.149 (0) Saving backup status to database (elements: 8)
+0029.153 (0) Beginning creation of database dump (WordPress DB)
+0029.155 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0029.158 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0029.177 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1537 bytes total)
+0029.180 (0) Binary mysqldump: error (code: -1)
+0029.200 (0) Table wp_options: Total expected rows (via COUNT): 374
+0029.201 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.214 (0) Table wp_options: Rows added in this batch (next record: 4805): 370 (uncompressed bytes in this segment=195408) in 0.02 seconds
+0029.223 (0) Table wp_options: finishing file(s) (2, 42.6 KB)
+0029.231 (0) Table wp_users: Total expected rows (via COUNT): 1
+0029.232 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.238 (0) Table wp_users: Rows added in this batch (next record: 3): 1 (uncompressed bytes in this segment=1353) in 0.01 seconds
+0029.244 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0029.252 (0) Table wp_usermeta: Total expected rows (via COUNT): 32
+0029.253 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.256 (0) Table wp_usermeta: Rows added in this batch (next record: 109): 32 (uncompressed bytes in this segment=8711) in 0.01 seconds
+0029.265 (0) Table wp_usermeta: finishing file(s) (2, 2.6 KB)
+0029.274 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0029.277 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.01 seconds
+0029.284 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0029.291 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0029.294 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1705) in 0.01 seconds
+0029.300 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0029.307 (0) Table wp_links: Total expected rows (via COUNT): 0
+0029.309 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0029.316 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0029.335 (0) Table wp_postmeta: Total expected rows (approximate): 3978
+0029.370 (0) Table wp_postmeta: Rows added in this batch (next record: 4385): 3951 (uncompressed bytes in this segment=449601) in 0.05 seconds
+0029.380 (0) Table wp_postmeta: finishing file(s) (2, 73 KB)
+0029.393 (0) Table wp_posts: Total expected rows (via COUNT): 288
+0029.394 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.407 (0) Table wp_posts: Rows added in this batch (next record: 411): 288 (uncompressed bytes in this segment=126938) in 0.02 seconds
+0029.415 (0) Table wp_posts: finishing file(s) (2, 14.8 KB)
+0029.421 (0) Table wp_term_relationships: Total expected rows (approximate): 19
+0029.426 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 19 (uncompressed bytes in this segment=948) in 0.01 seconds
+0029.432 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0029.441 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 3
+0029.442 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.446 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=989) in 0.01 seconds
+0029.453 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0029.462 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0029.465 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.01 seconds
+0029.472 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0029.480 (0) Table wp_terms: Total expected rows (via COUNT): 3
+0029.482 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.485 (0) Table wp_terms: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=788) in 0.01 seconds
+0029.493 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0029.506 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 239
+0029.507 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.520 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 338): 239 (uncompressed bytes in this segment=94682) in 0.02 seconds
+0029.528 (0) Table wp_yoast_indexable: finishing file(s) (2, 8.9 KB)
+0029.532 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 255
+0029.537 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 255 (uncompressed bytes in this segment=5239) in 0.01 seconds
+0029.544 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 1.1 KB)
+0029.551 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 21
+0029.552 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.557 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 21): 21 (uncompressed bytes in this segment=1190) in 0.01 seconds
+0029.563 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0029.569 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0029.573 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.01 seconds
+0029.581 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0029.618 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 3
+0029.620 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.628 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 35): 3 (uncompressed bytes in this segment=1256) in 0.03 seconds
+0029.638 (0) Table wp_yoast_seo_links: finishing file(s) (2, 0.5 KB)
+0029.643 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_options.table.tmpr4806.gz (1/17/fopen): adding to final database dump
+0029.646 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_options.table.gz (2/17/fopen): adding to final database dump
+0029.648 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_users.table.tmpr4.gz (3/17/fopen): adding to final database dump
+0029.649 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_users.table.gz (4/17/fopen): adding to final database dump
+0029.650 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_usermeta.table.tmpr110.gz (5/17/fopen): adding to final database dump
+0029.652 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_usermeta.table.gz (6/17/fopen): adding to final database dump
+0029.653 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_commentmeta.table.tmpr0.gz (7/17/fopen): adding to final database dump
+0029.655 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_commentmeta.table.gz (8/17/fopen): adding to final database dump
+0029.656 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_comments.table.tmpr0.gz (9/17/fopen): adding to final database dump
+0029.657 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_comments.table.gz (10/17/fopen): adding to final database dump
+0029.658 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_links.table.tmpr0.gz (11/17/fopen): adding to final database dump
+0029.661 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_links.table.gz (12/17/fopen): adding to final database dump
+0029.662 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_postmeta.table.tmpr4386.gz (13/17/fopen): adding to final database dump
+0029.664 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_postmeta.table.gz (14/17/fopen): adding to final database dump
+0029.666 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_posts.table.tmpr412.gz (15/17/fopen): adding to final database dump
+0029.667 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_posts.table.gz (16/17/fopen): adding to final database dump
+0029.669 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_term_relationships.table.tmpr100001.gz (17/17/fopen): adding to final database dump
+0029.670 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_term_relationships.table.gz (18/17/fopen): adding to final database dump
+0029.672 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_term_taxonomy.table.tmpr4.gz (19/17/fopen): adding to final database dump
+0029.673 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_term_taxonomy.table.gz (20/17/fopen): adding to final database dump
+0029.675 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_termmeta.table.tmpr0.gz (21/17/fopen): adding to final database dump
+0029.676 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_termmeta.table.gz (22/17/fopen): adding to final database dump
+0029.677 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_terms.table.tmpr4.gz (23/17/fopen): adding to final database dump
+0029.679 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_terms.table.gz (24/17/fopen): adding to final database dump
+0029.680 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_yoast_indexable.table.tmpr339.gz (25/17/fopen): adding to final database dump
+0029.682 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_yoast_indexable.table.gz (26/17/fopen): adding to final database dump
+0029.683 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (27/17/fopen): adding to final database dump
+0029.684 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_yoast_indexable_hierarchy.table.gz (28/17/fopen): adding to final database dump
+0029.685 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_yoast_migrations.table.tmpr22.gz (29/17/fopen): adding to final database dump
+0029.688 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_yoast_migrations.table.gz (30/17/fopen): adding to final database dump
+0029.692 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_yoast_primary_term.table.tmpr0.gz (31/17/fopen): adding to final database dump
+0029.694 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_yoast_primary_term.table.gz (32/17/fopen): adding to final database dump
+0029.695 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_yoast_seo_links.table.tmpr36.gz (33/17/fopen): adding to final database dump
+0029.697 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db-table-wp_yoast_seo_links.table.gz (34/17/fopen): adding to final database dump
+0029.703 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db.gz: finished writing out complete database file (148.4 KB)
+0029.824 (0) Total database tables backed up: 17 (backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db.gz, size: 152026, sha1: f456cb388704395482861242609897874f8c5195, sha256: 95ff19d9696bbf5ea8bfea64184f5a3d2e39ab2ff8379078df9cad31db55369a)
+0029.833 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0029.836 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0029.837 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0029.838 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-others.zip: others: This file has not yet been successfully uploaded: will queue
+0029.839 (0) backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0029.840 (0) Saving backup history. Total backup size: 88.3 MB
+0029.844 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0029.849 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0029.850 (0) No remote despatch: user chose no remote backup service
+0029.851 (0) Recording as successfully uploaded: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip
+0029.854 (0) Deleting zip manifest (backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-plugins.zip.list.tmp)
+0029.857 (0) Recording as successfully uploaded: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-themes.zip
+0029.860 (0) Deleting zip manifest (backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-themes.zip.list.tmp)
+0029.862 (0) Recording as successfully uploaded: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-uploads.zip
+0029.865 (0) Deleting zip manifest (backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-uploads.zip.list.tmp)
+0029.867 (0) Recording as successfully uploaded: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-others.zip
+0029.870 (0) Deleting zip manifest (backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-others.zip.list.tmp)
+0029.872 (0) Recording as successfully uploaded: backup_2021-12-20-1339_JRP_Dopplestabmatten_2d9229d11d3f-db.gz
+0029.881 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0029.882 (0) Number of backup sets in history: 1; groups (db): 1
+0029.884 (0) Examining (for databases) backup set with group_id=0, nonce=2d9229d11d3f, datestamp=1640003971 (Dec 20 2021 12:39:31)
+0029.885 (0) This backup set is the backup set just made, so will not be deleted.
+0029.885 (0) Number of backup sets in history: 1; groups (files): 1
+0029.886 (0) Examining (for files) backup set with nonce=2d9229d11d3f, datestamp=1640003971 (Dec 20 2021 12:39:31)
+0029.886 (0) This backup set is the backup set just made, so will not be deleted.
+0029.887 (0) This backup set is the backup set just made, so will not be deleted.
+0029.887 (0) This backup set is the backup set just made, so will not be deleted.
+0029.887 (0) This backup set is the backup set just made, so will not be deleted.
+0029.888 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.888 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0029.892 (0) Resume backup (2d9229d11d3f, 0): finish run
+0029.896 (0) Decremented the semaphore (fd) by 1
+0029.897 (0) Semaphore (fd) unlocked
+0029.899 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0029.910 (0) The backup apparently succeeded and is now complete
+0029.913 (0) No email will/can be sent - the user has not configured an email address.
+0029.915 (0) Die Sicherung war anscheinend erfolgreich und ist nun vollständig
